@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>greg's list</title>
+	<style>
+		
+		body {
+			margin: 0; 
+		}
+
+		.nav_container {
+			position: relative;
+			height: 40px;  
+			
+
+		}
+		
+		nav {
+			width: 100%; 
+			position: fixed;
+			padding: 10px; 
+			background-color: #ecf0f1; 
+			z-index: 2;
+		}
+
+		.navright {
+			position: relative;
+			display: inline-block;
+			float: right;
+		}
+
+		.navright ul {
+			display: inline-block;
+			float: right;
+			margin-top: 0px;
+			margin-bottom: 0px; 
+			margin-right: 15px; 
+		}
+
+		.navright li {
+			display: inline-block;
+		}
+
+		.container {
+			position: relative;
+			padding: 10px; 
+		}
+
+		label {
+			padding-left: 15px; 
+			display: block;
+
+		}
+
+		input {
+			margin: 20px 0px 0px 15px; 
+			padding: 10px 200px 15px 10px; 
+
+		}
+
+		.magnifying-glass-image {
+			margin-top: 20px;
+			margin-left: 10px; 
+			position: absolute;
+			height: 40px; 
+			border: 1px gray solid; 
+		}
+
+		table {
+			margin-left: 15px;
+			margin-top: 35px;
+			border: solid gray .5px;
+			border-radius: 2px; 
+			padding:0px;
+		}
+
+		th {
+			padding-left: 10px;
+			padding-right: 10px; 
+			padding-top: 5px;
+			padding-bottom: 5px; 
+		}
+
+		.thfirst {
+			border-right: 1px solid gray; 
+		}
+
+		.thsecond {
+			border-right: 1px solid gray; 
+		}
+
+		.listings li{
+			display: inline-block;\
+		}
+
+		.listings li:nth-child(2) {
+			color: blue;
+		}
+
+	
+
+
+	</style>
+
+</head>
+
+
+<body>
+
+	<div class = "nav_container">
+		<nav>
+			<span class = "brand">Greg's List</span>
+
+			<div class = "navright">
+				<ul>
+					<li><a href="#">post</a></li>
+					<li><a href="#">account</a></li>	
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<div class = "container">
+		<label>Search Jobs</label>	
+
+		<input type="text" name="Search" placeholder="Search software jobs"> 
+		<img class= "magnifying-glass-image" src="./magnifying-glass.png">
+
+		<table>
+			<th class = "thfirst"> < prev </th>
+			<th class = "thsecond"> 1 to 100 of 179 </th>
+			<th> > next </th> 
+
+		</table>
+
+		<div class = "listings">
+			<ul>
+				<li>
+					June 22 
+				</li>
+				<li>
+					Technical Project Manager					
+				</li>
+				<li>
+					Midtown East					
+				</li>
+			</ul>
+			<ul>
+				<li>
+					June 21 
+				</li>
+				<li>
+					Frontend Developer					
+				</li>
+				<li>
+					Soho					
+				</li>
+			</ul>
+			<ul>
+				<li>
+					June 20
+				</li>
+				<li>
+					Senior Python Developer/ Cofounder				
+				</li>
+				<li>
+					Flatiron					
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+
+
+
+
+
+</body>
+</html>
